@@ -1,0 +1,56 @@
+{
+  "name": "Usuario",
+  "plural": "Usuarios",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Id": {
+      "type": "string",
+      "required": true
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "IsMilitar": {
+      "type": "boolean",
+      "required": true,
+      "default": false
+    },
+    "TimeCreate": {
+      "type": "date",
+      "required": true
+    },
+    "IsTemporal": {
+      "type": "boolean",
+      "required": true
+    },
+    "Username": {
+      "type": "string",
+      "required": true
+    },
+    "Password": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "Emailverified": {
+      "type": "string",
+      "required": true
+    },
+    "Verificationtoken": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
